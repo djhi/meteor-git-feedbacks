@@ -1,0 +1,18 @@
+{
+  "name": "meteor-git-feedbacks",
+  "description": "Submit issues to git through a form",
+  "homepage": "",
+  "author": "Gildas Garcia <gildas.garcia@gmail.com>",
+  "version": "0.0.1",
+  "git": "https://github.com/djhi/meteor-git-feedbacks.git",
+  "packages": {
+    "autoform": {
+      "git": "https://github.com/djhi/meteor-autoform.git"
+    },
+    "reactive-modal": {},
+    "github-api": {},
+    "meteor-bootstrap-growl": {
+      "git": "https://github.com/djhi/meteor-bootstrap-growl.git"
+    }
+  }
+}

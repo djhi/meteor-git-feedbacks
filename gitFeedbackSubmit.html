@@ -1,0 +1,13 @@
+<template name="gitFeedbackSubmit">
+  {{#autoForm schema="GitFeedbackSchema" type="method" meteormethod="submitGitFeedback" id="gitFeedbackForm"}}
+  {{> afQuickField name="type" class="radio-inline"}}
+  {{> afQuickField name="subject" autofocus="autofocus"}}
+  {{> afQuickField name="message" rows=6}}
+
+  <div class="btn-group">
+    <button type="submit" class="btn btn-primary">Soumettre</button>
+    <button type="button" value="cancel" class="btn btn-default">Annuler</button>
+  </div>
+
+  {{/autoForm}}
+</template>

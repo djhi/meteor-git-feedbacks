@@ -1,0 +1,11 @@
+<template name="_afRadio_gitfeedback">
+  <label class="btn btn-primary {{#if this.selected}}active{{/if}}"><input type="radio" data-schema-key="{{this.name}}" name="{{this.name}}" value="{{this.value}}" {{atts}} />{{this.label}}</label>
+</template>
+
+<template name="afRadioGroup_gitfeedback">
+  <div class="btn-group" data-toggle="buttons">
+  {{#each this.items}}
+  {{> _afRadio_gitfeedback}}
+  {{/each}}
+  </div>
+</template>
