@@ -9,7 +9,9 @@
     "autoform": {
       "git": "https://github.com/djhi/meteor-autoform.git"
     },
-    "reactive-modal": {},
+    "reactive-modal": {
+      "git": "https://github.com/djhi/reactive-modal.git"
+    },
     "github-api": {},
     "meteor-bootstrap-growl": {
       "git": "https://github.com/djhi/meteor-bootstrap-growl.git"
